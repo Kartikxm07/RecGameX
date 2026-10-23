@@ -1,69 +1,22 @@
-# ==========================================
-# Python & Environment
-# ==========================================
+# Environments
 .venv/
 venv/
-ENV/
 env/
-env.bak/
-venv.bak/
 
-# Byte-compiled / optimized / DLL files
+# Python Cache
 __pycache__/
-*.py[cod]
-*$py.class
-*.so
+*.pyc
 
-# Distribution / packaging
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-
-# ==========================================
-# Databases & Local Data Store
-# ==========================================
-# Exclude SQLite databases created during runtime (e.g., respawned_users.db)
 *.db
-*.sqlite
 *.sqlite3
 
-# ==========================================
-# Jupyter Notebook Checkpoints & Cache
-# ==========================================
 .ipynb_checkpoints/
-*/.ipynb_checkpoints/*
 
-# ==========================================
-# IDEs and Text Editors
-# ==========================================
+
+.env
+*.log
+
 .vscode/
 .idea/
-*.swp
-*.swo
-*~
-
-# ==========================================
-# Operating System Files
-# ==========================================
 .DS_Store
-Thumbs.db
-desktop.ini
 
-# ==========================================
-# Secrets and Environment Variables
-# ==========================================
-.env
-.env.local
-*.log
