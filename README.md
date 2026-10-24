@@ -14,6 +14,14 @@ The system uses a Kaggle dataset of **26,000+ games** and combines TF-IDF featur
 - **Game Artwork Integration:** Displays game header images with fallback handling when images are unavailable.
 - **Gaming-Inspired UI:** Features a customized interface with gaming-themed styling and CSS.
 
+## 📸 Screenshots
+
+### Login Page
+![Login Page](loginpage.png)
+
+### Recommendation Interface
+![Recommendation Interface](recx_interface.png)
+
 ## ⚙️ How the System Works
 
 1. **Metadata Preparation:** Relevant attributes, including genres, categories, tags, and developer information, are combined into a unified text representation for each game.
